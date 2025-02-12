@@ -20,7 +20,7 @@ export default function Homepage(){
         </div>
         <div className="flex justify-center mt-4">
             <Button px={30} py={11} mx={10} text_size={30} onClick={() => {
-                // TODO
+                window.location.href = "/docs";
             }}>Getting Started</Button>
             <Button px={30} py={11} mx={10} text_size={30} style="outlined" color={"green"} onClick={() => {
                 // TODO
